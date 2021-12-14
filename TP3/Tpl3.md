@@ -13,11 +13,16 @@ L'intégration est l'un des problèmes les plus importants rencontrés en analys
 
 ## But
 Le but de ce chapitre est d’aborder le calcul général de l’intégrale d’une fonction $f(x)$ sur un domaine fini délimité par des bornes finies a et b
-$$\int_a^b f(x) \,dx$$
+```math
+\int_a^b f(x) \,dx
+```
+
 
 ## Méthode_de_Réctangle
 
-$$I(f)=\frac{(b-a)}{n} \sum_{k=0}^{n-1} f(a+k\frac{(b-a)}{n})$$
+```math
+I(f)=\frac{(b-a)}{n} \sum_{k=0}^{n-1} f(a+k\frac{(b-a)}{n})
+```
 
 Cette méthode, très élémentaire, basée sur les sommes de Cauchy-Riemann (approchant l'aire sous une courbe) et appliquée à une fonction f continue, permet le calcul approché d'intégrales 
 
