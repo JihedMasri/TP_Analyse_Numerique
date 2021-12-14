@@ -13,10 +13,8 @@ L'intégration est l'un des problèmes les plus importants rencontrés en analys
 
 ## But
 Le but de ce chapitre est d’aborder le calcul général de l’intégrale d’une fonction $f(x)$ sur un domaine fini délimité par des bornes finies a et b
-```math
-\int_a^b f(x) \,dx
-```
 
+<img src="https://render.githubusercontent.com/render/math?math=\int_a^b f(x) \,dx">
 
 ## Méthode_de_Réctangle
 
