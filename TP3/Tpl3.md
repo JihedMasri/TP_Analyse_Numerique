@@ -1,4 +1,4 @@
-- Methode d'intégration numérique
+# Methode d'intégration numérique
 
 - [ ] [Introduction](#Introduction)
 - [ ] [But](#But)
@@ -6,8 +6,8 @@
   - [Méthode des Trapézes](#Méthode_des_trapèzes)
   - [Méthode de Simpson](#Méthode_de_simpson)
   - [Méthode des Points Milieux](#Méthode_des_points_milieux)
+- [ ] [Conclusion](#Conclusion)
 
-# Méthodes d'intégration numérique:
 ## Introduction
 L'intégration est l'un des problèmes les plus importants rencontrés en analyse. En fait, on rencontre souvent des intégrations, dont le calcul par des méthodes analytiques est très compliqué voire impossible, car il n'y a pas d'expression analytique de la primitive de la fonction à intégrer. Dans ces cas, des méthodes composées peuvent être appliquées pour évaluer la valeur d'une intégrale donnée. La plupart des méthodes d'intégration numérique fonctionnent sur le même principe.
 
@@ -37,6 +37,7 @@ la méthode des trapèzes est une méthode pour le calcul numérique d'une inté
 ## Méthode_des_points_milieux:
   
 <img src="https://render.githubusercontent.com/render/math?math=I(f)=\frac{(b-a)}{n} \sum_{k=0}^{n-1} f(a+(k+\frac{1}{2})\frac{(b-a)}{n})">
+
 Le principe est d'approcher l'intégrale de la fonction f par l'aire d'un rectangle de base le segment [a,b] et de hauteur  
 <img src="https://render.githubusercontent.com/render/math?math=f\left ( \frac{a+b}{2} \right )">
 ce qui donne : 
@@ -45,3 +46,9 @@ ce qui donne :
   
 Cette aire est aussi celle du trapèze de base [a,b] et dont le côté opposé est tangent au graphe de f en <img src="https://render.githubusercontent.com/render/math?math=C = \frac{a+b}{2}">
 ce qui explique sa relative bonne précision
+## Conclusion:  
+
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
