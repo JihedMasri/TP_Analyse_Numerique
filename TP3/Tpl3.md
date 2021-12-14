@@ -1,9 +1,11 @@
 - Methode d'intégration numérique
-     - [ ] [But](#But)
-     - [ ] [Méthode de Réctangle](#Méthode de Réctangle)
-     - [ ] [Méthode des Trapézes](#Méthode des trapèzes)
-     - [ ] [Méthode de Simpson](#Méthode de simpson)
-     - [ ] [Méthode des Points Milieux](#Méthode des points milieux)
+     - [ ] [But](#1but)
+
+- [But](#But)
+  - [Méthode de Réctangle](#Méthode de Réctangle)
+  - [Méthode des Trapézes](#Méthode des trapèzes)
+  - [Méthode de Simpson](#Méthode de simpson)
+  - [Méthode des Points Milieux](#Méthode des points milieux)
 
 # Méthodes d'intégration numérique:
 
