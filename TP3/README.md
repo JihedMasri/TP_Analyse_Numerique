@@ -31,11 +31,18 @@ Cette méthode, très élémentaire, basée sur les sommes de Cauchy-Riemann (ap
 <img src="https://render.githubusercontent.com/render/math?math=I(f)=\frac{(b-a)}{n} (\frac{f(a)+f(b)}{2}+\sum_{k=1}^{n-1} f(a+k\frac{(b-a)}{n}) )">
 la méthode des trapèzes est une méthode pour le calcul numérique d'une intégrale ,s'appuyant sur l'interpolation linéaire par intervalles le principe est d'assimiler la région sous la courbe représentative d'une fonction f définie sur un segment [a,b] à un trapèze et d'en calculer l'aire  
 
+<p align="center">
+  <img src="https://github.com/JihedMasri/TP_Analyse_Numerique/blob/main/TP3/trapeze.gif?raw=true" alt="trapeze"/>
+</p>
 ## Méthode_de_simpson:
 
 <img src="https://render.githubusercontent.com/render/math?math=I(f)=\frac{(\frac{(b-a)}{n})}{6} ({f(a)+f(b)}+2\sum_{k=1}^{n-1} f(a+k\frac{(b-a)}{n})+4\sum_{k=0}^{n-1} f(a+(k+\frac{1}{2})\frac{(b-a)}{n})">
  la méthode de Simpson,<i>du nom de Thomas Simpson, est une technique de calcul numérique d'une intégrale cette méthode utilise l'approximation d'ordre 2 de f par un polynôme quadratique prenant les mêmes valeurs que f aux points d'abscisse a et b 
 
+	<p align="center">
+  <img src="https://github.com/JihedMasri/TP_Analyse_Numerique/blob/main/TP3/simpson.gif?raw=true" alt="simpson"/>
+</p>
+	
 ## Méthode_des_points_milieux:
   
 <img src="https://render.githubusercontent.com/render/math?math=I(f)=\frac{(b-a)}{n} \sum_{k=0}^{n-1} f(a+(k+\frac{1}{2})\frac{(b-a)}{n})">
@@ -48,6 +55,11 @@ ce qui donne :
   
 Cette aire est aussi celle du trapèze de base [a,b] et dont le côté opposé est tangent au graphe de f en <img src="https://render.githubusercontent.com/render/math?math=C = \frac{a+b}{2}">
 ce qui explique sa relative bonne précision
+	
+	<p align="center">
+  <img src="https://github.com/JihedMasri/TP_Analyse_Numerique/blob/main/TP3/milieux.gif?raw=true" alt="milieux"/>
+</p>
+	
 ## Conclusion:  
   
 Le tableau suivant résume les performances théoriques de chaque méthode :
