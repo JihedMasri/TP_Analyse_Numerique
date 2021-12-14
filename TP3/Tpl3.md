@@ -27,5 +27,4 @@ Cette méthode, très élémentaire, basée sur les sommes de Cauchy-Riemann (ap
 
 ## Méthode_de_simpson:
  
-
 ## Méthode_des_points_milieux:
