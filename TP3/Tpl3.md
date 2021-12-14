@@ -47,8 +47,14 @@ ce qui donne :
 Cette aire est aussi celle du trapèze de base [a,b] et dont le côté opposé est tangent au graphe de f en <img src="https://render.githubusercontent.com/render/math?math=C = \frac{a+b}{2}">
 ce qui explique sa relative bonne précision
 ## Conclusion:  
-
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+  
+Le tableau suivant résume les performances théoriques de chaque méthode :
+  
+| Nom de la Méthode  | Degré du polynôme  | Nombre de points  |  Degré d’exactitude (ordre)| Degré d’erreur globale |Degré d’erreur finale|
+|---|---|---|---|---|---|
+| Rectangle |  0 | 1  | 0  | 2  | 1  |
+| Point Milieu  |  0 | 1  | 1  | 3  |  2 |
+| Trapèze  |  1 |  2 |  1 | 3  | 2  |
+| Simpson  |  2 | 3  |  3 | 5  | 4  |
+  			
+	
