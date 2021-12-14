@@ -23,7 +23,9 @@ Le but de ce chapitre est d’aborder le calcul général de l’intégrale d’
 Cette méthode, très élémentaire, basée sur les sommes de Cauchy-Riemann (approchant l'aire sous une courbe) et appliquée à une fonction f continue, permet le calcul approché d'intégrales 
 
 
-
+<p align="center">
+  <img src="https://github.com/JihedMasri/TP_Analyse_Numerique/blob/main/TP3/rectangle.gif?raw=true" alt="rectangle"/>
+</p>
 ## Méthode_des_trapèzes:
 
 <img src="https://render.githubusercontent.com/render/math?math=I(f)=\frac{(b-a)}{n} (\frac{f(a)+f(b)}{2}+\sum_{k=1}^{n-1} f(a+k\frac{(b-a)}{n}) )">
