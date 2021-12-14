@@ -12,15 +12,13 @@
 L'intégration est l'un des problèmes les plus importants rencontrés en analyse. En fait, on rencontre souvent des intégrations, dont le calcul par des méthodes analytiques est très compliqué voire impossible, car il n'y a pas d'expression analytique de la primitive de la fonction à intégrer. Dans ces cas, des méthodes composées peuvent être appliquées pour évaluer la valeur d'une intégrale donnée. La plupart des méthodes d'intégration numérique fonctionnent sur le même principe.
 
 ## But
-Le but de ce chapitre est d’aborder le calcul général de l’intégrale d’une fonction $f(x)$ sur un domaine fini délimité par des bornes finies a et b
+Le but de ce chapitre est d’aborder le calcul général de l’intégrale d’une fonction <img src="https://render.githubusercontent.com/render/math?math=f(x)"> sur un domaine fini délimité par des bornes finies a et b
 
 <img src="https://render.githubusercontent.com/render/math?math=\int_a^b f(x) \,dx">
 
 ## Méthode_de_Réctangle
 
-```math
-I(f)=\frac{(b-a)}{n} \sum_{k=0}^{n-1} f(a+k\frac{(b-a)}{n})
-```
+<img src="https://render.githubusercontent.com/render/math?math=I(f)=\frac{(b-a)}{n} \sum_{k=0}^{n-1} f(a+k\frac{(b-a)}{n})">
 
 Cette méthode, très élémentaire, basée sur les sommes de Cauchy-Riemann (approchant l'aire sous une courbe) et appliquée à une fonction f continue, permet le calcul approché d'intégrales 
 
