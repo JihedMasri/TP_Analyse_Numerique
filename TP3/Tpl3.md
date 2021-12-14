@@ -2,10 +2,10 @@
 
 - [ ] [Introduction](#Introduction)
 - [ ] [But](#But)
-  - [Méthode de Réctangle](#1.Méthode_de_Réctangle)
-  - [Méthode des Trapézes](#2.Méthode_des_trapèzes)
-  - [Méthode de Simpson](#3.Méthode_de_simpson)
-  - [Méthode des Points Milieux](#4.Méthode_des_points_milieux)
+  - [Méthode de Réctangle](#Méthode_de_Réctangle)
+  - [Méthode des Trapézes](#Méthode_des_trapèzes)
+  - [Méthode de Simpson](#Méthode_de_simpson)
+  - [Méthode des Points Milieux](#Méthode_des_points_milieux)
 
 # Méthodes d'intégration numérique:
 ## Introduction
