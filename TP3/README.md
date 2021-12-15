@@ -26,6 +26,7 @@ Cette méthode, très élémentaire, basée sur les sommes de Cauchy-Riemann (ap
 <p align="center">
   <img src="https://github.com/JihedMasri/TP_Analyse_Numerique/blob/main/TP3/rectangle.gif?raw=true" alt="rectangle"/>
 </p>
+
 ## Méthode_des_trapèzes:
 
 <img src="https://render.githubusercontent.com/render/math?math=I(f)=\frac{(b-a)}{n} (\frac{f(a)+f(b)}{2}+\sum_{k=1}^{n-1} f(a+k\frac{(b-a)}{n}) )">
@@ -34,12 +35,13 @@ la méthode des trapèzes est une méthode pour le calcul numérique d'une inté
 <p align="center">
   <img src="https://github.com/JihedMasri/TP_Analyse_Numerique/blob/main/TP3/trapeze.gif?raw=true" alt="trapeze"/>
 </p>
+
 ## Méthode_de_simpson:
 
 <img src="https://render.githubusercontent.com/render/math?math=I(f)=\frac{(\frac{(b-a)}{n})}{6} ({f(a)+f(b)}+2\sum_{k=1}^{n-1} f(a+k\frac{(b-a)}{n})+4\sum_{k=0}^{n-1} f(a+(k+\frac{1}{2})\frac{(b-a)}{n})">
  la méthode de Simpson,<i>du nom de Thomas Simpson, est une technique de calcul numérique d'une intégrale cette méthode utilise l'approximation d'ordre 2 de f par un polynôme quadratique prenant les mêmes valeurs que f aux points d'abscisse a et b 
 
-	<p align="center">
+<p align="center">
   <img src="https://github.com/JihedMasri/TP_Analyse_Numerique/blob/main/TP3/simpson.gif?raw=true" alt="simpson"/>
 </p>
 	
@@ -56,7 +58,7 @@ ce qui donne :
 Cette aire est aussi celle du trapèze de base [a,b] et dont le côté opposé est tangent au graphe de f en <img src="https://render.githubusercontent.com/render/math?math=C = \frac{a+b}{2}">
 ce qui explique sa relative bonne précision
 	
-	<p align="center">
+<p align="center">
   <img src="https://github.com/JihedMasri/TP_Analyse_Numerique/blob/main/TP3/milieux.gif?raw=true" alt="milieux"/>
 </p>
 	
